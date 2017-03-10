@@ -114,10 +114,11 @@ Module.register("MMM-Dictons",{
 	 * get Saying to be displayed
 	 */
 	getRandomSaying: function() {
-		var saying = "test saying !";
+		var idx = Math.floor(Math.random() * this.config.sayings.all.length);
+		Log.log(this.name + " - length = " + this.config.sayings.all.length + " random number : " + idx);
+		var saying = this.config.sayings.all[idx];
 		
 		return saying;
 	}
-	
   }
 );
