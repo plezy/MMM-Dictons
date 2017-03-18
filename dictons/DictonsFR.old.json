@@ -1,0 +1,97 @@
+{ "day" :
+	
+	  {  "3" : 
+		
+		  { "13" :
+	        [
+				"En mars quand il fait beau, prends un manteau.",
+				"Le jour de saint Pol, l'hiver se romp le col.",
+				"Belle Euphrasie met pommes à l'airie."
+			]
+		  ,
+		    "14" :
+	        [
+				"Pluie de sainte Mahaud n'est jamais de trop.",
+				"Chèvrefeuille planté à sainte Mathilde, fleurit dès sainte Clotilde."
+			]
+		  }
+		
+	  ,
+	    "4" :
+	    
+		  {  "1" : 
+			[
+				"En avril, ne te découvre pas d'un fil ; en mai, fais ce qu'il te plaît.",
+				"Pendant tout le mois d'avril, ne t'allège pas d'un fil.",
+				"II faut de la pluie en avril, pour le grenier et le fenil."
+			]
+		  }
+		
+	  }
+	,
+	
+  "agriculture" : [
+      "Qui sème bon grain, récolte bon pain.",
+      "À la Pentecôte, roses sont ; à la Saint Jean, roses s'en vont.",
+      "Avec la paille et le temps, mûrissent les nèfles et les glands.",
+      "Brouillard en matinée, belle et claire journée.",
+      "Année venteuse, année pommeuse.",
+      "Tout terroir entretenu avec peine, plaira à toutes graines.",
+      "Si l'osier fleurit, le raisin mûrit.",
+      "Arbre souvent transplanté, donne rarement des fruits de qualité.",
+      "Terre bien cultivée, belle moisson espérée.",
+      "Tout fagot bien lié, est à demi porté.",
+      "Le trop tarder en labourage, fait la ruine du ménage.",
+      "En hiver partout il pleut, en été là où Dieu le veut.",
+      "Mieux vaut emprunter du vin, à sa vigne qu'à son voisin.",
+      "Coq à dix heures chantant, annonce l'arrivée du vent.",
+      "Mieux vaut tondre l'agneau, que de tondre le pourceau.",
+      "Il n'est pas toujours saison, de tondre brebis et mouton."
+  ],
+  "vie" : [
+      "Le fruit ensuit la belle fleur, et la bonne vie grand honneur.",
+      "Qui veut vivre en paix : voit, écoute et se tait.",
+      "Après le fait, ne vaut le souhait.",
+      "Autant vaut celui qui chasse et rien ne prend, que celui qui lit et ne comprend.",
+      "Bigne, borgne, bossu, boiteux : Quatre b malencontreux.",
+      "Bien dire, fait rire ; bien faire, fait taire.",
+      "À ton maître ne te dois mesurer, ni à plus fort que toi t'y frotter.",
+      "Au feu éteindre uriner est sain, mais y cracher est vain.",
+      "Après grand dommage, chacun est plus sage.",
+      "En toute saison, chacun est roi en sa maison.",
+      "Belles paroles et méchants faits, trompent les sages et sots parfaits."
+  ],
+  "paresse" : [
+      "Deux mains dans les poches, n'ont jamais fait argent en poche.",
+      "Renard qui dort toute la journée, n'a guère la bouche emplumée.",
+      "Qui ne fait ce qu'il doit, ne reçoit pas ce qu'il croit.",
+      "Premier couché et dernier levé, n'a jamais rempli un grenier."
+  ],
+  "mort" : [
+      "À longue corde tire, qui d'autrui mort désire.",
+      "Au mort et à l'absent, injure ni tourment.",
+      "Aujourd'hui en chair, demain en bière.",
+      "Mort du louveteau, longue vie pour l'agneau."
+  ],
+  "travail" : [
+      "Dernier couché premier debout, doit être chaque maître partout.",
+      "À qui se lève matin, Dieu aide et prête la main.",
+      "Affaire convenue, affaire conclue.",
+      "Mauvais est celui qui se repose, quand il doit urgemment faire quelque chose.",
+      "Assez tôt se fait, ce qui est bien fait.",
+      "En affaire fructueuse, l'audace est avantageuse.",
+      "Fais bien et tu auras des envieux, qui te jalouseront si tu fais mieux."
+  ],
+  "alcoolisme" : [
+      "À sa trogne, on reconnaît l'ivrogne.",
+      "Boire à tout torrent, fait tourner la tête à tout vent.",
+      "Boire trop de vin, fait parler en latin.",
+      "Lorsqu'il hausse le gobelet, l'ivrogne à se vanter est sujet.",
+      "L'homme au matin qui plaît, après le vin bu déplaît.",
+      "Près du logis du chat, n'est jamais saoul le rat.",
+      "Qui boit sans soif de tout, finira plus vite dans le trou.",
+      "Aux ivrognes et aux buvants, chemin est court avec le temps.",
+      "En mangeant on perd l'appétit, en buvant on perd l'esprit.",
+      "Entre le fromage et la poire, chacun dit sa chanson à boire."
+  ]
+}
