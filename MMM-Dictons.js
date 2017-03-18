@@ -7,7 +7,7 @@ Module.register("MMM-Dictons",{
 		// day => select sayings linked to date
 		// <theme> => theme named saying list in config.sayings
         
-		select: "agriculture,vie,alcoolisme",
+		select: "all",
 		
 		sayings : { "all" : [ 
 			"A beautiful thing is never perfect.",
@@ -118,7 +118,7 @@ Module.register("MMM-Dictons",{
 	getRandomSaying: function() {
 		
 		var select = this.config.select ;
-		var saying = "Hello !";
+		var saying = this.translate("LOAD");
 		var selection = [];
 		var totalLength = 0;
 		
@@ -133,7 +133,7 @@ Module.register("MMM-Dictons",{
 				Log.log(this.name + " - index : " + idx);
 				saying = this.config.sayings["day"][(moment().month()+1).toString()][moment().date().toString()][idx];
 			} else {
-				saying = "Current day's sayings does not exists !!!";
+				saying = this.translate("NOSAYING");
 			}
 		} else {
 			if (/^all,.*/.test(select) || /,all$/.test(select) || /,all,/.test(select) || /^all$/.test(select)) {
@@ -184,9 +184,8 @@ Module.register("MMM-Dictons",{
 					saying = this.config.sayings[selection[i].theme][idx - selection[i].start];
 					break;
 				}
-			}
-			
-		}
+			}			
+        }
 		return saying;
 	}
   }

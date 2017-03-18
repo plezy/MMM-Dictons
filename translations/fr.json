@@ -1,6 +1,8 @@
 {
 	"DICTON" : "Dicton",
 	"DAYDICTON" : "Dicton du jour",
-	
-	"FILE"   : "DictonsFR.json"
+	"LOAD" : "Chargement ...",
+    "NOSAYING" : "Pas de dicton pour aujourd'hui !",
+
+	"FILE"   : "dictonsFR.json"
 }

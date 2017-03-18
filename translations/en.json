@@ -1,6 +1,8 @@
 {
 	"DICTON" : "Saying",
 	"DAYDICTON" : "Saying of the day",
-	
-	"FILE"   : "DictonsUK.json"
+	"LOAD" : "Loading ...",
+    "NOSAYING" : "Current day's sayings does not exists !!!",
+
+	"FILE"   : "dictonsEN.json"
 }
