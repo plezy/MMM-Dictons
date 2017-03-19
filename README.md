@@ -52,12 +52,14 @@ example:
   "mother": [
   	"Always love your mother because you will never get another.",
 	"Birth is the only time when you cry and your mother smiles."
-  ]
-}
+  ],
 ...
+}
 ```
 
-Saying of the day is a special object named `'day'`. this object is builf of month's objects containing in turn day's object.
+Saying of the day is a special object named `'day'`. this object is built of month's objects containing in turn day's object.
+
+Only one object named `'day'` may occur in a file but other themes may be defined in the file.
 
 Objects for a day contains the list of string to be used for a day.
 
@@ -90,6 +92,8 @@ example:
               ,
 	      ...
             }
-}
+,
 ...
+}
+
 ```
