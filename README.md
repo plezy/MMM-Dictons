@@ -6,9 +6,8 @@ Multiple options provide the possibility to select sayings among themes or to di
 ## Installation
 
 1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/plezy/MMM-Dictons.git`.
-2. A new folder will appear, navigate into it : `cd MMM-Dictons`,
-3. Configure the 'config.js' to suits your needs.
-4. Reboot your Pi.
+2. Configure the `config.js` file to suits your needs.
+3. Reboot your Pi.
 
 ## Usage
 
@@ -18,7 +17,6 @@ You only have to add variables to config if you want to change the standard valu
 ```javascript
 ...
 },
-
 {
   module: 'MMM-Dictons',
   position: 'top_left',
